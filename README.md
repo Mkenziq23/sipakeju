@@ -37,7 +37,7 @@ Sistem ini mendukung **multi-user role** dengan hak akses berbeda sesuai kebutuh
 ## 🖼️ Tampilan Sistem
 
 ### 🔹 Halaman Beranda
-![Halaman Beranda](docs/images/beranda.png)
+![Halaman Beranda](https://github.com/Mkenziq23/sipakeju/blob/main/public/imgreadme/home.png)
 
 ### 🔹 Form Diagnosa (Input Gejala)
 ![Form Diagnosa](docs/images/form-diagnosa.png)
