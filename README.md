@@ -39,30 +39,57 @@ Sistem ini mendukung **multi-user role** dengan hak akses berbeda sesuai kebutuh
 ### 🔹 Halaman Beranda
 ![Halaman Beranda](https://github.com/Mkenziq23/sipakeju/blob/main/public/imgreadme/home.png)
 
-### 🔹 Form Diagnosa (Input Gejala)
-![Form Diagnosa](docs/images/form-diagnosa.png)
+### 🔹 Halaman Login
+![Halaman Login](https://github.com/Mkenziq23/sipakeju/blob/main/public/imgreadme/login.png)
 
-### 🔹 Hasil Analisis Diagnosa
-![Hasil Analisis](docs/images/hasil-diagnosa.png)
+### 🔹 Halaman Dashboard
+![Halaman Dashboard](https://github.com/Mkenziq23/sipakeju/blob/main/public/imgreadme/dashboard.png)
 
-### 🔹 Dashboard Admin (Manajemen Gejala & Solusi)
-![Dashboard Admin](docs/images/dashboard.png)
+### 🔹 Halaman Range
+![Halaman Range](https://github.com/Mkenziq23/sipakeju/blob/main/public/imgreadme/range.png)
 
-> 📌 Catatan: Simpan semua screenshot di folder `docs/images/` agar rapi di repositori.  
+### 🔹 Halaman Pernyataan
+![Halaman Pernyataan](https://github.com/Mkenziq23/sipakeju/blob/main/public/imgreadme/pernyataan.png)
+
+### 🔹 Halaman Tipe Kecenderungan Perilaku
+![Halaman Tipe Kecenderungan Perilaku](https://github.com/Mkenziq23/sipakeju/blob/main/public/imgreadme/tipe%20kecenderungan%20perilaku.png)
+
+### 🔹 Halaman Basis Pengetahuan
+![Halaman Basis Pengetahuan](https://github.com/Mkenziq23/sipakeju/blob/main/public/imgreadme/basis%20pengetahuan.png)
+
+### 🔹 Halaman Hasil Identifikasi
+![Halaman Hasil Identifikasi](https://github.com/Mkenziq23/sipakeju/blob/main/public/imgreadme/hasil%20identifikasi.png)
+
+### 🔹 Halaman Kelola Akun
+![Halaman Kelola Akun](https://github.com/Mkenziq23/sipakeju/blob/main/public/imgreadme/kelola%20akun.png)
+
+### 🔹 Form Data Diri (Input Data Diri)
+![Form Data Diri](https://github.com/Mkenziq23/sipakeju/blob/main/public/imgreadme/form%20data%20diri.png)
+
+### 🔹 Form Pernyataan (Input Pernyataan)
+![Form Pernyataan](https://github.com/Mkenziq23/sipakeju/blob/main/public/imgreadme/form%20pernyataan.jpg)
+
+### 🔹 Hasil Identifikasi
+![Hasil Identifikasi](https://github.com/Mkenziq23/sipakeju/blob/main/public/imgreadme/hasil%20identifikasi.jpg)
 
 ---
 
 ## 🛠️ Teknologi yang Digunakan
 - **Backend**: [Laravel 12](https://laravel.com/)  
 - **Frontend**: Blade Template, Bootstrap/Tailwind CSS  
-- **Database**: MySQL / MariaDB  
-- **Authentication & Role Management**: Laravel Breeze / Jetstream + Middleware  
+- **Database**: MySQL
+- **Authentication & Role Management**: Laravel Middleware  
 
 ---
 
 ## ⚙️ Instalasi & Penggunaan
 
 ### 1. Clone Repository
+```bash
+git clone https://github.com/username/nama-repositori.git
+cd nama-repositori
+
+### 2. Clone Repository
 ```bash
 git clone https://github.com/username/nama-repositori.git
 cd nama-repositori
