@@ -9,9 +9,9 @@ Sistem ini dapat digunakan untuk melakukan analisis berdasarkan gejala yang dial
 ## 🚀 Fitur Utama
 - ✅ **Multi Role Login (5 Role Pengguna)**  
   - **Admin** → Mengelola data sistem, pengguna, gejala, aturan, dan solusi.  
-  - **Psikolog** → Melihat hasil diagnosa pengguna, memberikan rekomendasi tambahan.  
+  - **Psikolog** → Memberikan bobot pernyataan, menganalisis, dan memberikan rekomendasi pada hasil diagnosa.  
   - **Asisten 1 & Asisten 2** → Membantu psikolog/admin dalam manajemen data dan verifikasi diagnosa.  
-  - **Client (Pengguna)** → Melakukan diagnosa berdasarkan gejala yang dialami.  
+  - **Client (Pengguna)** → Mengisi form diagnosa, melihat hasil analisis, serta mendapatkan solusi.  
 - ✅ **Identifikasi Gejala** – Pengguna memilih gejala yang dialami.  
 - ✅ **Perhitungan Certainty Factor (CF)** – Menghitung tingkat kecenderungan terhadap perilaku judi online.  
 - ✅ **Laporan Hasil Diagnosa** – Menampilkan hasil analisis berupa persentase, kategori tingkat kecenderungan, deskripsi, dan solusi.  
@@ -27,10 +27,10 @@ Sistem ini mendukung **multi-user role** dengan hak akses berbeda sesuai kebutuh
 | Role       | Hak Akses Utama |
 |------------|-----------------|
 | **Admin**  | CRUD data pengguna, gejala, aturan, solusi, serta manajemen sistem. |
-| **Psikolog** | Melihat, Memberikan bobot pernyataan, menganalisis, dan memberikan rekomendasi pada hasil diagnosa. |
+| **Psikolog** | Memberikan bobot pernyataan, menganalisis, dan memberikan rekomendasi pada hasil diagnosa. |
 | **Asisten 1** | Membantu mengelola data diagnosa dan input gejala. |
 | **Asisten 2** | Membantu psikolog/admin dalam memvalidasi hasil diagnosa. |
-| **Client** | Mengisi form diagnosa, serta mendapatkan solusi. |
+| **Client** | Mengisi form diagnosa serta mendapatkan solusi. |
 
 ---
 
@@ -77,7 +77,7 @@ Sistem ini mendukung **multi-user role** dengan hak akses berbeda sesuai kebutuh
 ## 🛠️ Teknologi yang Digunakan
 - **Backend**: [Laravel 12](https://laravel.com/)  
 - **Frontend**: Blade Template, Bootstrap/Tailwind CSS  
-- **Database**: MySQL
+- **Database**: MySQL  
 - **Authentication & Role Management**: Laravel Middleware  
 
 ---
@@ -85,11 +85,20 @@ Sistem ini mendukung **multi-user role** dengan hak akses berbeda sesuai kebutuh
 ## ⚙️ Instalasi & Penggunaan
 
 ### 1. Clone Repository
-```bash
-git clone https://github.com/username/nama-repositori.git
+git clone https://github.com/Mckenziq23/sipakeju.git
 cd nama-repositori
 
-### 2. Clone Repository
-```bash
-git clone https://github.com/username/nama-repositori.git
-cd nama-repositori
+### 2. Install Dependency PHP
+composer install
+
+### 3. Konfigurasi File Environment
+cp .env.example .env
+
+### 4. Generate Key
+php artisan key:generate
+
+### 5. Migrasi & Seeder Database
+php artisan migrate --seed
+
+### 6. Jalankan Server
+php artisan serve
